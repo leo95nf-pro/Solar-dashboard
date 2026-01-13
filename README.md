@@ -1,9 +1,11 @@
 🌍 Solar Dashboard & Analemma Calculator
+
 Un'applicazione desktop Python che mostra la Terra in tempo reale, calcola l'analemma solare per qualsiasi posizione geografica e monitora gli eventi astronomici. Include una modalità "Tray Icon" per funzionare in background.
 
 [(Esempio interfaccia per una località dell'emisfero Nord)](https://github.com/leo95nf-pro/Solar-dashboard/blob/main/screenshots/north_emi.png)
 
 ✨ Funzionalità
+
 Viste della Terra in tempo reale: Integrazione con Fourmilab Switzerland per mostrare la Terra con terminatore giorno/notte aggiornato.
 
 Analemma dinamico: Calcola e disegna la curva dell'analemma (la posizione del sole alla stessa ora durante l'anno) basandosi sulla latitudine/longitudine specifica.
@@ -17,6 +19,7 @@ System Tray: Il programma può essere ridotto a icona nella barra delle applicaz
 No-Console: Compilabile in .exe pulito senza finestre di terminale.
 
 🚀 Installazione e Uso
+
 Opzione 1: Scarica l'Eseguibile (Per utenti Windows)
 Non serve installare Python.
 
@@ -61,7 +64,8 @@ pyinstaller --onefile --noconsole --icon=analemma.ico --add-data "analemma.ico;.
 Il file completato si troverà nella cartella dist/.
 
 📚 Crediti e Librerie
-Dati Immagini: Earth and Moon Viewer by John Walker (Fourmilab).
+
+Dati immagini: Earth and Moon Viewer by John Walker (Fourmilab).
 
 GUI: Tkinter (Python Standard Library).
 
