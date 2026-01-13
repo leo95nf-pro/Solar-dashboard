@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller folders (non caricarle!)
+build/
+dist/
+*.spec
+
+# Env virtuale
+venv/
+env/
+.env
